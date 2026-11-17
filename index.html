@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BrainSpace</title>
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#4f46e5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="BrainSpace">
+<link rel="apple-touch-icon" href="/icons/pwa-192.png">
+<link rel="icon" href="/icons/pwa-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app"></main>
+<nav id="nav">
+  <button data-v="plan"><span>✓</span>Plan</button>
+  <button data-v="goals"><span>🎯</span>Cele</button>
+  <button data-v="notes"><span>💡</span>Zapiski</button>
+  <button data-v="prog"><span>🏆</span>Postęp</button>
+  <button data-v="more"><span>⚙</span>Więcej</button>
+</nav>
+<div id="modal" class="hidden"></div>
+<div id="toast" class="hidden"></div>
+<script src="app.js"></script>
+</body>
+</html>
