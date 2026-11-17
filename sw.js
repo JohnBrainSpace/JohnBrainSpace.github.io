@@ -1,4 +1,4 @@
-const CACHE = 'moj-dzien-v6';
+const CACHE = 'brainspace-v7';
 const FILES = ['./', './index.html', './style.css', './app.js', './manifest.json',
   './icons/pwa-192.png', './icons/pwa-512.png', './icons/pwa-maskable.png'];
 

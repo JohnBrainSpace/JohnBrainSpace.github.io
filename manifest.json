@@ -1,7 +1,7 @@
 {
-  "name": "Moj Dzien",
-  "short_name": "Moj Dzien",
-  "description": "Daily tasks, habits, quotes and ideas",
+  "name": "BrainSpace",
+  "short_name": "BrainSpace",
+  "description": "Tasks, habits, quotes and ideas in one place",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

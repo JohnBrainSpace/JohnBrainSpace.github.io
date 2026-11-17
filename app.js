@@ -524,8 +524,8 @@ const A = {
     if (typeof Notification === 'undefined') return toast('Ta przeglądarka nie obsługuje powiadomień');
     const r = await Notification.requestPermission(); toast(r === 'granted' ? 'Powiadomienia włączone ✅' : 'Brak zgody'); rerender();
   },
-  testn: () => canNotify() ? notify('Mój Dzień', 'Powiadomienia działają 🎉', 'test') : toast('Najpierw włącz powiadomienia'),
-  export: () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(S, null, 2)], { type: 'application/json' })); a.download = 'moj-dzien-backup-' + today() + '.json'; a.click(); },
+  testn: () => canNotify() ? notify('BrainSpace', 'Powiadomienia działają 🎉', 'test') : toast('Najpierw włącz powiadomienia'),
+  export: () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(S, null, 2)], { type: 'application/json' })); a.download = 'brainspace-backup-' + today() + '.json'; a.click(); },
   import: () => $('#file').click()
 };
 
